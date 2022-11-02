@@ -27,6 +27,13 @@ body {
   overflow: hidden;
 }
 
+.fullscreen {
+    height: 100%;
+    max-width: none;
+    position: fixed;
+    width: 100%;
+}
+
 /* This css is only applied when fullscreen is active. */
 .player:fullscreen {
   max-width: none;
